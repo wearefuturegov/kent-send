@@ -1,5 +1,7 @@
 import React from "react"
-import { createGlobalStyle } from "styled-components"
+import styled, { createGlobalStyle } from "styled-components"
+import theme from "../_theme"
+import logo from "./logo.svg"
 
 const GlobalStyle = createGlobalStyle`
     *{
@@ -10,11 +12,26 @@ const GlobalStyle = createGlobalStyle`
     }
 `
 
+const Header = styled.header`
+    background: ${theme.teal};
+    border-bottom: 8px solid ${theme.darkTeal};
+    color: white;
+`
+
+const LogoLink = styled.a``
+
 const Layout = ({
     children
 }) =>
     <>
         <GlobalStyle/>
+        <Header>
+            <LogoLink href="http://kent.gov.uk">
+                KCC
+                <img src={logo}/>
+            </LogoLink>
+            test
+        </Header>
         {children}
     </>
 
