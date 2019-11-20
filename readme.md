@@ -7,19 +7,19 @@ A quiz and personalised results page for the Kent SEND service. It:
 
 Built on the [next.js](https://github.com/zeit/next.js) framework.
 
-# Prerequisites
+## Prerequisites
 
 `node` and `npm`
 
-# Running it locally
+## Running it locally
 
 1. Grab dependencies with `npm install`
 2. `npm run dev`
 
-# Running it on the web
+## Running it on the web
 
 It's intended to be run on Heroku
 
-# Environment config
+## Environment config
 
 Needs none right now

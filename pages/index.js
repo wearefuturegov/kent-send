@@ -1,4 +1,6 @@
-import React from "react"
+import Layout from "../components/Layout"
 
 export default () =>
-    <h1>Test page</h1>
+    <Layout>
+        <h1>Test page</h1>
+    </Layout>
