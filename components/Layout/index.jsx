@@ -10,10 +10,12 @@ const GlobalStyle = createGlobalStyle`
     }
 `
 
-const layout = ({
+const Layout = ({
     children
 }) =>
     <>
         <GlobalStyle/>
         {children}
     </>
+
+export default Layout
