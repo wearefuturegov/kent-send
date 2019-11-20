@@ -12,10 +12,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "babel-plugin-inline-react-svg": "^1.1.0",
     "next": "^9.1.4",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "styled-components": "^4.4.1"
+  },
+  "devDependencies": {
+    "next-images": "^1.2.0"
   }
 }
