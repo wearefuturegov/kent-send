@@ -18,7 +18,9 @@ Built on the [next.js](https://github.com/zeit/next.js) framework.
 
 ## Running it on the web
 
-It's intended to be run on Heroku
+It should run on Heroku with no special steps.
+
+In other places, run it in production mode with `npm run build` and then `npm start`.
 
 ## Environment config
 
