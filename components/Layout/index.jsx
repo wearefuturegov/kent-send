@@ -23,7 +23,7 @@ const Header = styled.header`
 `
 
 const Inner = styled.div`
-    max-width: 53.88889rem;
+    max-width: 970px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -67,6 +67,10 @@ const Wordmark = styled.img`
         padding: 22px 15px;
         width: 320px;
     }
+    @media screen and (min-width: 56.25rem){
+        width: 369px;
+        padding: 20px 16px;
+    }
 `
 
 const Logo = styled.img`
@@ -75,14 +79,22 @@ const Logo = styled.img`
     /* z-index: -1; */
     @media screen and (min-width: 510px){
         width: 71.6px;
+        margin-top: 9px;
     }
 `
 
 const SearchForm = styled.form`
-    padding: 10px 15px;
-    margin-left: 15px;
-    position: relative;
-    flex: 1;
+    display: none;
+    @media screen and (min-width: 730px){
+        display: block;
+        padding: 10px 15px;
+        margin-left: 15px;
+        position: relative;
+        flex: 1;
+    }
+    @media screen and (min-width: 56.25rem){
+        margin-left: 45px;
+    }
 `
 
 const HiddenLabel = styled.label`
