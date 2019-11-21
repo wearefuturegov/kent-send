@@ -32,6 +32,7 @@ const LogoLink = styled.a`
     height: 55px;
     overflow: hidden;
     &:focus{
+        outline: none;
         box-shadow: inset 0px 0px 0px 4px ${theme.focus};
     }
     @media screen and (min-width: 510px){
@@ -125,7 +126,12 @@ const Header = () =>
                 <Logo src={logo} alt=""/>
             </LogoLink>
 
-            <SearchForm action="https://kent.gov.uk/search" method="get">
+            <SearchForm 
+                action="https://kent.gov.uk/search" 
+                method="get"
+                role="search"
+            >
+                <input name="mode" type="hidden" value="results"></input>
                 <HiddenLabel for="query">Search</HiddenLabel>
                 <Input 
                     id="query" 
