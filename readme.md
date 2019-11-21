@@ -1,11 +1,15 @@
 # Is EHCP right for me?
 
+*On the web [here](https://kent-send.herokuapp.com/)*
+
 A quiz and personalised results page for the Kent SEND service. It:
 
 * filters inappropriate demand and singposts elsewhere
 * screens applications for EHCP plans and improves the quality of applications
 
 Built on the [next.js](https://github.com/zeit/next.js) framework.
+
+Pushes to master are automatically redeployed on Heroku.
 
 ## Prerequisites
 
