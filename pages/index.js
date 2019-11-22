@@ -17,9 +17,22 @@ const PageTitle = styled.h1`
     }
 `
 
+const TwoThirdsColumns = styled.div`
+    padding: 40px 0px;
+    @media screen and (min-width: 56.25rem){
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-column-gap: 50px;
+    }
+`
+
 export default () =>
     <Layout>
         <Main>
-            <PageTitle>Test page</PageTitle>
+            <PageTitle>Explore your options</PageTitle>
+            <TwoThirdsColumns>
+                <div>Main content goes here</div>
+                <aside>sidebar goes here</aside>
+            </TwoThirdsColumns>
         </Main>
     </Layout>
