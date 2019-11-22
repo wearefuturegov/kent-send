@@ -9,7 +9,7 @@ import search from "./search.svg"
 
 const Outer = styled.header`
     background: ${theme.teal};
-    border-bottom: 8px solid ${theme.darkTeal};
+    /* border-bottom: 8px solid ${theme.darkTeal}; */
     color: white;
 `
 

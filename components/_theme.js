@@ -1,6 +1,7 @@
 export default {
     teal: "#248096",
     darkTeal: "#103A44",
+    darkestTeal: "#09262d",
     purple: "#8E1065",
     darkPurple: "#600B44",
     red: "#C42927",

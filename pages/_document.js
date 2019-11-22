@@ -31,7 +31,7 @@ export default class MyDocument extends Document {
             <Html lang="en">
                 <Head>
                     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-                    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700&display=swap" rel="stylesheet"/> 
+                    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap" rel="stylesheet"/> 
                     {this.props.styles}
                 </Head>
                 <body>
