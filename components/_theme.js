@@ -10,4 +10,5 @@ export default {
     lightGrey: "#F5F5F5",
     lightBlue: "#EEF6F8",
     focus: "#ffc107",
+    blue: "#1778CD"
 }

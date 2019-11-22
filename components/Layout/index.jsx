@@ -3,6 +3,7 @@ import styled, { createGlobalStyle } from "styled-components"
 import Header from "../Header"
 import Footer from "../Footer"
 import Breadcrumbs from "../Breadcrumbs"
+import PhaseBanner from "../PhaseBanner"
 
 const GlobalStyle = createGlobalStyle`
     *{
@@ -20,6 +21,7 @@ const Layout = ({
         <GlobalStyle/>
         <Header/>
         <Breadcrumbs/>
+        <PhaseBanner/>
         {children}
         <Footer/>
     </>

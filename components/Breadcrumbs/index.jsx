@@ -3,7 +3,7 @@ import styled from "styled-components"
 import theme from "../_theme"
 import arrow from "./arrow.svg"
 
-const Outer = styled.header`
+const Outer = styled.section`
     background: ${theme.darkTeal};
     color: white;
 `
