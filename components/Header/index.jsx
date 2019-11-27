@@ -132,7 +132,7 @@ const Header = () =>
                 role="search"
             >
                 <input name="mode" type="hidden" value="results"></input>
-                <HiddenLabel for="query">Search</HiddenLabel>
+                <HiddenLabel htmlFor="query">Search</HiddenLabel>
                 <Input 
                     id="query" 
                     name="queries_keyword_query" 
