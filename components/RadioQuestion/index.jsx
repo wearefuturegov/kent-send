@@ -8,14 +8,14 @@ const Outer = styled.fieldset`
 `
 
 const Legend = styled.legend`
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: 700;
     margin-bottom: 7px;
 
 `
 
 const HelpText = styled.p`
-    font-size: 1.1em;
+    font-size: 1.1rem;
     margin-bottom: 25px;
 `
 

@@ -8,6 +8,9 @@ const Outer = styled.section`
     text-align: center;
     padding: 20px;
     border-radius: 5px;
+    position: sticky;
+    top: 50%;
+    transform: translateY(-50%)
 `
 
 const Headline = styled.h2`
