@@ -26,6 +26,14 @@ It should run on Heroku with no special steps.
 
 In other places, run it in production mode with `npm run build` and then `npm start`.
 
+## Content
+
+At the moment, the content is stored as two data files `questions.json` and `options.json` in the folder `content`. It's safe to edit the text in these files to make minor content changes. Most keys accept HTML tags.
+
+The application uses the `id` key to match questions to options, so don't change these unless you know what you're doing.
+
+_In future, these data files could be generated as part of the build by pulling content from a headless CMS._
+
 ## Environment config
 
 Needs none right now
