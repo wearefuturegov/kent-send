@@ -1,0 +1,76 @@
+[
+    {
+        "id": 1,
+        "topAction": true,
+        "headline": "Meet with your child’s school to discuss support options",
+        "lede": "Every school has a special educational needs coordinator, who you should meet with to discuss your child’s progress.",
+        "highlights": [
+            "All schools have an obligation to provide support",
+            "Many different kinds of support available"
+        ],
+        "callToAction": {
+            "href": "#",
+            "label": "See the advice",
+            "text": "We’ve prepared some advice to help you have this conversation."
+        }
+    },
+    {
+        "id": 2,
+        "headline": "Get independent help to resolve disagreements",
+        "lede": "<strong>Information, Advice and Support Kent</strong> can provide independent advice and support to help you along your journey.",
+        "highlights": [
+            "Everything said is confidential and can stay anonymous",
+            "Impartial experts"
+        ],
+        "callToAction": {
+            "text": "Visit the <a href='#'>IASK website</a> to get started."
+        }
+    },
+    {
+        "id": 3,
+        "headline": "Explore the help and support available in your local community",
+        "lede": "There are many voluntary organisations, support groups and advice charities active in Kent that can help you, often for free.",
+        "highlights": [
+            "Wide variety of support available, to suit all situations",
+            "Most support is free"
+        ],
+        "callToAction": {
+            "text": "You can <a href=''>search for services and activities</a> online."
+        }
+    },
+    {
+        "id": 4,
+        "headline": "Consider whether children’s services can help",
+        "lede": "If your family is going through a difficult time, our <strong>Early Help</strong> team may be able to help.",
+        "highlights": [
+            "You don’t have to be at a crisis point to reach out",
+            "You may not need an assessment"
+        ],
+        "callToAction": {
+            "text": "Read about <a href='#'>how to use children’s services</a> in Kent."
+        }
+    },
+    {
+        "id": 5,
+        "headline": "Consider whether an EHC assessment is needed",
+        "lede": "All schools have an obligation to support pupils with SEN, but everything that’s been tried isn’t working, it could be time to ask for an EHC assessment",
+        "highlights": [
+            "EHC assessments can take up to 20 weeks",
+            "Getting an assessment doesn’t guarantee a plan"
+        ],
+        "callToAction": {
+            "text": "Make sure you <a href='#'>read about what’s involved</a> before asking for an EHC plan."
+        }
+    },
+    {
+        "id": 6,
+        "headline": "Speak to your doctor about physical and mental health support",
+        "lede": "Because you said you said that physical and mental health symptoms are involved.",
+        "highlights": [
+            "You can access some specialist treatment, like speech therapy, without an EHC plan"
+        ],
+        "callToAction": {
+            "text": "Make an appointment with your GP, or in some situations, the school nurse."
+        }
+    },
+]

@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "question": "How old is the child or young person?",
+        "helpText": "We support children and young people up to the age of 25.",
+        "options": [
+            {
+                "label": "Early years",
+                "value": "early-years"
+            },
+            {
+                "label": "School age",
+                "value": "school-age"
+            },
+            {
+                "label": "Young adult",
+                "helpText": "18-25",
+                "value": "young-adult"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "question": "Do they have extra needs that impact their learning?",
+        "helpText": "For example, you feel that your child is falling behind at school.",
+        "options": [
+            {
+                "label": "Yes",
+                "value": true
+            },{
+                "label": "No or not sure",
+                "value": false
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "question": "Which areas does your child needs support with?",
+        "helpText": "You can select multiple options. <a href=''>What do these mean?</a>",
+        "multiple": true,
+        "options": [
+            {
+                "label": "Communication and interaction",
+                "value": "communication-interaction"
+            },
+            {
+                "label": "Social, emotional or mental health",
+                "value": "social-emotional-mental health"
+            },
+            {
+                "label": "Cognition and learning",
+                "helpText": "Including reading and counting",
+                "value": "cognition-learning"
+            },
+            {
+                "label": "Physical and sensory",
+                "helpText": "including hearing or vision loss",
+                "value": "physical-sensory"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "question": "Have you spoken to the school about your concerns?",
+        "helpText": "Every school has an obligation to make provide extra help to pupils with special educational needs.",
+        "options": [
+            {
+                "label": "Yes",
+                "value": true
+            },{
+                "label": "No or not sure",
+                "value": false
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "question": "Are you able to work together with the school to support your child?",
+        "helpText": "Is the school responding to your concerns, and discussing what can be done at school to help your child progress?",
+        "options": [
+            {
+                "label": "Yes",
+                "value": true
+            },{
+                "label": "No or not sure",
+                "value": false
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "question": "Is the support put in place by the school helping?",
+        "helpText": "The school should be able to update you on any progress being made.",
+        "options": [
+            {
+                "label": "Yes",
+                "value": true
+            },{
+                "label": "No or not sure",
+                "value": false
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "question": "Have you spoken to your doctor or another health professional about your concerns?",
+        "helpText": "For example, your GP or an occupational therapist.",
+        "options": [
+            {
+                "label": "Yes",
+                "value": true
+            },{
+                "label": "No or not sure",
+                "value": false
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "question": "Is a situation at home affecting their learning?",
+        "helpText": "For example, if your family is going through a particularly stressful time.",
+        "options": [
+            {
+                "label": "Yes",
+                "value": true
+            },{
+                "label": "No or not sure",
+                "value": false
+            }
+        ]
+    }
+]
