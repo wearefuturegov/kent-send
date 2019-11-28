@@ -27,7 +27,7 @@ const PageLede = styled.p`
 `
 
 const TwoThirdsColumns = styled.div`
-    padding: 40px 0px;
+    padding-top: 65px;
     @media screen and (min-width: 56.25rem){
         display: grid;
         grid-template-columns: 2fr 1fr;
