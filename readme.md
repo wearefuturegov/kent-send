@@ -37,3 +37,7 @@ _In future, these data files could be generated as part of the build by pulling 
 ## Environment config
 
 Needs none right now
+
+## What it looks like
+
+![SEND Explore your options - Kent County Council](https://user-images.githubusercontent.com/11888656/196427719-d8c0dccf-2b79-4da2-8765-8cba92b31f89.png)
